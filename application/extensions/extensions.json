@@ -1,0 +1,6 @@
+[
+    {"priority":0,"name":"preside-ext-rest-i18n","active":true},
+    {"priority":0,"name":"preside-ext-rest-security","active":true},
+    {"priority":0,"name":"preside-ext-rest-scaffold","active":true},
+    {"priority":0,"name":"preside-ext-rest-swagger","active":true}
+]

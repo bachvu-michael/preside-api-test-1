@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form i18nBaseUri="system-config.rest-swagger:" feature="restSwagger">
+	<tab>
+		<fieldset>
+			<field name="title"   required="true" maxlength="128" />
+			<field name="version" required="true" maxlength="32" default="0.1.0" />
+			<field name="description" />
+			<field name="termsOfServiceURL" />
+			<field name="contactName" />
+			<field name="contactURL" />
+			<field name="contactEmail" />
+			<field name="hostname" />
+			<field name="usesHTTPS" 	  control="yesNoSwitch" default="false" />
+			<field name="enableSwaggerUi" control="yesNoSwitch" default="true" />
+		</fieldset>
+	</tab>
+</form>

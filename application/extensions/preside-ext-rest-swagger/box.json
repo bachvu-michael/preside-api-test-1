@@ -1,0 +1,17 @@
+{
+    "name":"Preside Extension: Swagger Support for REST APIs",
+    "version":"1.0.10",
+    "author":"hotelwebservice GmbH",
+    "directory":"application/extensions",
+    "type":"preside-extensions",
+    "homepage":"https://bitbucket.org/hwsdev/preside-ext-rest-swagger",
+    "documentation":"https://bitbucket.org/hwsdev/preside-ext-rest-swagger",
+    "location":"https://bitbucket.org/hwsdev/preside-ext-rest-swagger/get/1.0.10.zip",
+    "repository":{
+        "type":"git",
+        "URL":"https://bitbucket.org/hwsdev/preside-ext-rest-swagger.git"
+    },
+    "bugs":"https://bitbucket.org/hwsdev/preside-ext-rest-swagger/issues",
+    "slug":"preside-ext-rest-swagger",
+    "projectURL":"https://bitbucket.org/hwsdev/preside-ext-rest-swagger"
+}

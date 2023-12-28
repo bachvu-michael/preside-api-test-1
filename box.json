@@ -1,0 +1,22 @@
+{
+    "name":"bachvu.io.vn",
+    "version":"1.0.0",
+    "author":"mick author",
+    "slug":"mickAPI",
+    "private":true,
+    "createPackageDirectory":false,
+    "dependencies":{
+        "presidecms":"^10.7.0",
+        "preside-ext-rest-i18n":"stable",
+        "preside-ext-rest-security":"stable",
+        "preside-ext-rest-scaffold":"stable",
+        "preside-ext-rest-swagger":"stable"
+    },
+    "installPaths":{
+        "presidecms":"preside",
+        "preside-ext-rest-i18n":"application/extensions/preside-ext-rest-i18n",
+        "preside-ext-rest-security":"application/extensions/preside-ext-rest-security",
+        "preside-ext-rest-scaffold":"application/extensions/preside-ext-rest-scaffold",
+        "preside-ext-rest-swagger":"application/extensions/preside-ext-rest-swagger"
+    }
+}

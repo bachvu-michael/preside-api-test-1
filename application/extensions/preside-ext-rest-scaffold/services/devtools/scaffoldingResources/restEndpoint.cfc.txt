@@ -1,0 +1,24 @@
+/**
+ * @restUri ${uri}{id}/
+ */
+component {
+
+    property name="dao" inject="presidecms:object:${objectName}";
+
+    /**
+     * @hint This endpoint returns a single ${singularObjectTitle}
+     * @id.hint the uuid of the ${singularObjectTitle}
+     * ${swaggerAnnotations}
+     */
+    private void function get( required uuid id ) {
+
+        var result = dao.selectData( id=arguments.id );
+
+        if ( IsEmpty( result ) ) {
+            restResponse.noData().setStatus( 404 );
+            return;
+        }
+        
+        restResponse.setData( queryRowData( result, 1 ) );
+    }
+}

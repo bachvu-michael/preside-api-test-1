@@ -1,0 +1,17 @@
+{
+    "name":"Preside Extension: REST API Endpoint Scaffolding",
+    "version":"1.0.2",
+    "author":"Jan Jannek",
+    "directory":"application/extensions",
+    "type":"preside-extensions",
+    "homepage":"https://bitbucket.org/jjannek/preside-ext-rest-scaffold",
+    "documentation":"https://bitbucket.org/jjannek/preside-ext-rest-scaffold",
+    "location":"https://bitbucket.org/jjannek/preside-ext-rest-scaffold/get/1.0.2.zip",
+    "repository":{
+        "type":"git",
+        "URL":"https://bitbucket.org/jjannek/preside-ext-rest-scaffold.git"
+    },
+    "bugs":"https://bitbucket.org/jjannek/preside-ext-rest-scaffold/issues",
+    "slug":"preside-ext-rest-scaffold",
+    "projectURL":"https://bitbucket.org/jjannek/preside-ext-rest-scaffold"
+}

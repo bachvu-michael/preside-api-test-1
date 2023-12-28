@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <tab id="rest" sortorder="30" feature="restSecurity">
+        <fieldset id="rest" sortorder="10">
+            <field binding="website_user.rest_api_enabled"      sortorder="10" control="yesnoswitch" />
+            <field binding="website_user.rest_api_key"          sortorder="20" control="readonly" />
+            <field binding="website_user.rest_api_last_access"  sortorder="30" control="readonly" />
+            <field binding="website_user.rest_api_access_count" sortorder="40" control="readonly" />
+        </fieldset>
+    </tab>
+</form>

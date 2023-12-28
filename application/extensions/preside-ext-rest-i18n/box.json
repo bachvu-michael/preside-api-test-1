@@ -1,0 +1,17 @@
+{
+    "name":"Preside Extension: Multilingual REST request handling",
+    "version":"1.0.5",
+    "author":"hotelwebservice GmbH",
+    "directory":"application/extensions",
+    "type":"preside-extensions",
+    "homepage":"https://bitbucket.org/hwsdev/preside-ext-rest-i18n",
+    "documentation":"https://bitbucket.org/hwsdev/preside-ext-rest-i18n",
+    "location":"https://bitbucket.org/hwsdev/preside-ext-rest-i18n/get/1.0.5.zip",
+    "repository":{
+        "type":"git",
+        "URL":"https://bitbucket.org/hwsdev/preside-ext-rest-i18n.git"
+    },
+    "bugs":"https://bitbucket.org/hwsdev/preside-ext-rest-i18n/issues",
+    "slug":"preside-ext-rest-i18n",
+    "projectURL":"https://bitbucket.org/hwsdev/preside-ext-rest-i18n"
+}

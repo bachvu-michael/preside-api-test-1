@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form feature="restSecurity">
+    <!-- TODO: remove feature definition on tab - temporary workaround due to bug in core -->
+    <tab id="main" feature="restSecurity">
+        <fieldset id="main">
+            <field binding="rest_api_key.label" />
+            <field binding="rest_api_key.active" />
+        </fieldset>
+    </tab>
+</form>

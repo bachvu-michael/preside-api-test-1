@@ -1,0 +1,16 @@
+{
+    "datasources":{
+        "preside":{
+            "host":"localhost",
+            "dbdriver":"mysql",
+            "password":"1234567899",
+            "database":"mickapidatabase",
+            "port":"3306",
+            "username":"root"
+        }
+    },
+    "templateCharset":"UTF-8",
+    "webCharset":"UTF-8",
+    "resourceCharset":"UTF-8",
+    "dotNotationUpperCase":false
+}

@@ -1,0 +1,6 @@
+{
+	  "id"        : "preside-ext-rest-i18n"
+	, "title"     : "Preside REST API i18n support"
+	, "author"    : "hotelwebservice GmbH"
+	, "version"   : "1.0.5"
+}

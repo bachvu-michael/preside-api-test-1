@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form i18nBaseUri="system-config.rest-security:" feature="restSecurity">
+	<tab>
+		<fieldset>
+            <field name="enabled"                        control="yesnoswitch" default="true" />
+            <field name="http_request_header_name"       required="true"       default="X-API-KEY" maxlength="32" />
+            <field name="api_key"                                                                  maxlength="64" />
+            <field name="enable_api_key_management"      control="yesnoswitch" default="false" />
+            <field name="enable_website_user_basic_auth" control="yesnoswitch" default="false" feature="websiteUsers" />
+			<field name="track_api_key_usage"            control="yesnoswitch" default="false" />
+		</fieldset>
+	</tab>
+</form>

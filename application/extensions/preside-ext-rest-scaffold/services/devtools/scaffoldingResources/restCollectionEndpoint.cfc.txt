@@ -1,0 +1,20 @@
+/**
+ * @restUri ${uri}
+ */
+component {
+
+    property name="dao" inject="presidecms:object:${objectName}";
+
+    /**
+     * @hint This endpoint returns ${pluralObjectTitle}
+     * @maxRows.hint the maximum number of rows to return - 0 means return all
+     * @startRow.hint the row to start with (first record to return)
+     * ${swaggerAnnotations}
+     */
+    private void function get( numeric maxRows=0, numeric startRow=1 ) {
+        
+        var result = dao.selectData( maxRows=arguments.maxRows, startRow=arguments.startRow );
+
+        restResponse.setData( queryToArray( result ) );
+    }
+}

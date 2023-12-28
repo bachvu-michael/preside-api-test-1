@@ -1,0 +1,17 @@
+{
+    "name":"Preside Extension: Basic REST Security",
+    "version":"1.3.6",
+    "author":"hotelwebservice GmbH",
+    "directory":"application/extensions",
+    "type":"preside-extensions",
+    "homepage":"https://bitbucket.org/hwsdev/preside-ext-rest-security",
+    "documentation":"https://bitbucket.org/hwsdev/preside-ext-rest-security",
+    "location":"https://bitbucket.org/hwsdev/preside-ext-rest-security/get/1.3.6.zip",
+    "repository":{
+        "type":"git",
+        "URL":"https://bitbucket.org/hwsdev/preside-ext-rest-security.git"
+    },
+    "bugs":"https://bitbucket.org/hwsdev/preside-ext-rest-security/issues",
+    "slug":"preside-ext-rest-security",
+    "projectURL":"https://bitbucket.org/hwsdev/preside-ext-rest-security"
+}

@@ -1,0 +1,21 @@
+{
+    "cfconfig":{
+        "file":".cfconfig.json"
+    },
+    "interactive":"true",
+    "JVM":{
+        "heapSize":"1024"
+    },
+    "name":"mickapi",
+    "trayIcon":"C:/Users/BachVuMinh/.CommandBox/cfml/modules/preside-commands/_resources/trayicon.png",
+    "web":{
+        "http":{
+            "port":"50239"
+        },
+        "rewrites":{
+            "config":"urlrewrite.xml",
+            "enable":"true"
+        },
+        "webroot":"/"
+    }
+}

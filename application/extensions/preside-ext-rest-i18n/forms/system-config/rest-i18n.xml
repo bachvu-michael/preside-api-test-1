@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form i18nBaseUri="system-config.rest-i18n:" feature="restI18n">
+	<tab>
+		<fieldset>
+			<field name="supportDefaultHeader" control="yesnoswitch" default="true" />
+			<field name="customHeader" />
+		</fieldset>
+	</tab>
+</form>
