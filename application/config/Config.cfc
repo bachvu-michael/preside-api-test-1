@@ -31,6 +31,8 @@ component extends="preside.system.config.Config" {
 		StructDelete( settings.adminPermissions, "sites"    );
 		StructDelete( settings.adminPermissions, "sitetree" );
 
+		settings.rest.corsEnabled = true;
+
 		settings.adminApplications = [{
 			  id                 = "cms"
 			, feature            = "cms"
