@@ -4,7 +4,7 @@ component extends="preside.system.config.Config" {
 		super.configure();
 
 		settings.autoSyncDb = true;
-		// settings.forceSsl = false;
+		settings.forceSsl = true;
 
 		settings.preside_admin_path  = "admin";
 		settings.system_users        = "sysadmin";
