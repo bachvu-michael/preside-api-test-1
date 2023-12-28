@@ -4,7 +4,7 @@ component extends="preside.system.config.Config" {
 		super.configure();
 
 		settings.autoSyncDb = true;
-		settings.forceSsl = true;
+		// settings.forceSsl = false;
 
 		settings.preside_admin_path  = "admin";
 		settings.system_users        = "sysadmin";
@@ -31,7 +31,7 @@ component extends="preside.system.config.Config" {
 		StructDelete( settings.adminPermissions, "sites"    );
 		StructDelete( settings.adminPermissions, "sitetree" );
 
-		settings.rest.corsEnabled = true;
+		// settings.rest.corsEnabled = true;
 
 		settings.adminApplications = [{
 			  id                 = "cms"
